@@ -22,7 +22,7 @@ const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
   if (isLoading) return <Spinner />;
   return (
     <>
-      <Heading fontSize="2xl" marginBottom={3}>
+      <Heading fontSize="3xl" marginBottom={3}>
         Genres
         <List>
           {data.map((genre) => (
